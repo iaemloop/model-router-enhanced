@@ -1,0 +1,47 @@
+[
+  {
+    "name": "glm-4.5-air:free",
+    "provider": "openrouter",
+    "cost_score": 0,
+    "power_score": 80,
+    "capabilities": ["chat", "general", "writing", "analysis"],
+    "description": "High-quality free model for general conversation and writing",
+    "priority": 1
+  },
+  {
+    "name": "claude-3-haiku:free",
+    "provider": "openrouter", 
+    "cost_score": 0,
+    "power_score": 75,
+    "capabilities": ["chat", "analysis", "fast", "reasoning"],
+    "description": "Fast and efficient model for analysis and conversation",
+    "priority": 2
+  },
+  {
+    "name": "openrouter/openai/gpt-4o",
+    "provider": "openrouter",
+    "cost_score": 15,
+    "power_score": 95,
+    "capabilities": ["chat", "analysis", "code", "vision"],
+    "description": "Premium multimodal model with advanced capabilities",
+    "requires_approval": true
+  },
+  {
+    "name": "openrouter/anthropic/claude-3-5-sonnet",
+    "provider": "openrouter",
+    "cost_score": 25,
+    "power_score": 92,
+    "capabilities": ["chat", "analysis", "coding", "reasoning"],
+    "description": "Advanced reasoning and coding capabilities",
+    "requires_approval": true
+  },
+  {
+    "name": "openrouter/google/gemini-pro",
+    "provider": "openrouter",
+    "cost_score": 20,
+    "power_score": 90,
+    "capabilities": ["chat", "analysis", "multimodal"],
+    "description": "Google's advanced multimodal model",
+    "requires_approval": true
+  }
+]
